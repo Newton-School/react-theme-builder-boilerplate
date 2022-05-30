@@ -1,0 +1,109 @@
+.App {
+    margin: 0px;
+    text-align: left;
+    min-height: 100vh;
+    max-height: max-content;
+    width: 100%;
+    padding: 50px;
+  }
+  
+  [data-tag='themePopup'] {
+  
+       height: 50vh;
+        width: max-content;
+       display: flex;
+       flex-direction: row;
+       justify-content :space-between; 
+  }
+
+  body {
+    background: #6981a2;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+      'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+      sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+      monospace;
+  }
+  
+  [data-tag='themePopup'] {
+    position: absolute;
+    top: 40%;
+    left: 30%;
+    background: rgb(255, 255, 255);
+    width: 70%;
+    height: 70vh;
+    margin-left: -250px; /*Half the value of width to center div*/
+    margin-top: -250px; /*Half the value of height to center div*/
+    z-index: 200;
+    border-radius: 64px;
+    background: #5a5d61;
+    box-shadow:  5px 5px 0px #5c5e62,
+                 -5px -5px 0px #393a3b36;
+  }
+  
+
+
+
+
+  
+  [data-tag='theme-card'] {
+       margin: 30px;
+       height: 200px;
+       min-width: 300px;
+       max-width: auto; 
+       border: 1px solid  white ;
+       border-radius: 10px;
+       display: flex;
+       justify-content: center;
+       flex-direction: column;
+       padding: 30px;
+  
+       border-radius: 64px; 
+      box-shadow:  5px 5px 0px #5c5e62,
+                   -5px -5px 0px #393a3b36;
+  }
+  
+  [data-tag='theme-cards'] {
+       display: flex;
+       flex-direction: row;
+       flex-wrap: wrap;
+       min-height: 300px;
+       max-height: max-content;
+       width: 100%;
+       justify-content: start; 
+       align-items: center;
+      }
+  
+  [data-tag='display-area'] {
+     border: 1px solid black;
+     border-radius: 64px; 
+     display: flex;
+     text-align: center;
+     align-items: center;
+     flex-direction: column;  
+     width: 100%;
+       justify-content: center;
+      height: inherit ;
+  }
+  
+  
+  
+  [data-tag='color-form'] {
+      display: flex;
+      padding: 20px;
+      align-items: center;
+      justify-content: center;
+  }
+  
+  [data-tag='color-form'] > form {
+      padding: 20x;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+  }
